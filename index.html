@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vruksha | Leo Club of Sabaragamuwa University of Sri Lanka</title>
+<meta name="description" content="Vruksha – Plant Today. Grow Tomorrow. The tree planting project of the Leo Club of Sabaragamuwa University of Sri Lanka for the Leo Tree Plantation Challenge, Season 7.">
+<meta name="theme-color" content="#0f3d24">
+<meta property="og:title" content="Vruksha | Plant Today. Grow Tomorrow.">
+<meta property="og:description" content="The tree planting journey of the Leo Club of Sabaragamuwa University of Sri Lanka.">
+<meta property="og:image" content="assets/img/hero-sm.jpg">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="vine" aria-hidden="true"><div class="vine-fill" id="vineFill"></div></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Vruksha home">
+    <img src="assets/img/logo-vruksha.png" alt="" width="44" height="44">
+    <span>Vruksha</span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#campaign">Campaign</a>
+    <a href="#journey">Journey</a>
+    <a href="#grove">Plant a tree</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#film">Film</a>
+    <a href="#team">Team</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero-bg" src="assets/img/hero.jpg"
+         srcset="assets/img/hero-sm.jpg 900w, assets/img/hero.jpg 1600w" sizes="100vw"
+         alt="The Vruksha team holding saplings around the Leo Club banner" fetchpriority="high">
+    <canvas class="hero-leaves" id="leaves" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <img class="hero-logo" src="assets/img/logo-vruksha.png" alt="Vruksha project logo" width="132" height="132">
+      <p class="eyebrow">Leo Tree Plantation Challenge &middot; Season 7</p>
+      <h1>Vruksha</h1>
+      <p class="tagline">Plant Today. Grow Tomorrow.</p>
+      <p class="hero-sub">A tree planting project by the Leo Club of Sabaragamuwa University of Sri Lanka.</p>
+      <div class="hero-cta">
+        <a class="btn btn-leaf" href="#journey">Walk our journey</a>
+        <a class="btn btn-ghost" href="#film">Watch the film</a>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#about" aria-label="Scroll to about"><span></span></a>
+    <svg class="hero-hill" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 80 C 240 10 420 110 720 60 C 1020 10 1200 100 1440 40 L1440 120 L0 120 Z"/>
+    </svg>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-text reveal">
+        <p class="kicker">About the project</p>
+        <h2>Every forest begins with someone who decides to plant.</h2>
+        <p><strong>Vruksha</strong> means <em>tree</em> in Sanskrit. It is also the name we gave to our promise: to put living roots into the ground, and to do it together.</p>
+        <p>Carried out by the Leo Club of Sabaragamuwa University of Sri Lanka for the <strong>Leo Tree Plantation Challenge &ndash; Season 7</strong>, Vruksha brought our Leos out of the lecture halls and into the red earth, with saplings in hand and mammoties on shoulders.</p>
+        <p>What we planted is small today. That is exactly the point.</p>
+        <ul class="facts">
+          <li><span aria-hidden="true">📅</span> Tuesday, 29 September 2026</li>
+          <li><span aria-hidden="true">⏰</span> 11:30 AM onwards</li>
+          <li><span aria-hidden="true">📍</span> The Agrarian Service Center, Pambahinna</li>
+        </ul>
+      </div>
+      <div class="about-photos reveal">
+        <img class="ph ph-a" src="assets/img/gallery/g15-t.jpg" alt="Five members planting a sapling hand in hand" loading="lazy" width="480" height="640">
+        <img class="ph ph-b" src="assets/img/gallery/g01-t.jpg" alt="Young saplings ready for planting" loading="lazy" width="640" height="480">
+        <span class="leaf-badge" aria-hidden="true">🌱</span>
+      </div>
+    </div>
+    <div class="wrap stats reveal">
+      <div class="stat"><b data-count="7">7</b><span>Season of the Leo Tree Plantation Challenge</span></div>
+      <div class="stat"><b data-count="9">9</b><span>Team leads guiding the project</span></div>
+      <div class="stat"><b data-count="40" data-suffix="+">40+</b><span>Leos with their hands in the soil</span></div>
+    </div>
+  </section>
+
+  <!-- CAMPAIGN -->
+  <section class="section campaign" id="campaign">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">The campaign</p>
+        <h2>Counting down to planting day</h2>
+        <p>&ldquo;Let&rsquo;s Fight Global Warming.&rdquo; The flyers our design team made to spread the word, from the first teaser to the thank-you.</p>
+      </div>
+    </div>
+    <div class="flyer-rail reveal" id="flyerRail" tabindex="0" aria-label="Campaign flyers"></div>
+    <p class="swipe-hint" aria-hidden="true">← Swipe to follow the countdown →</p>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="section journey" id="journey">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Our journey</p>
+        <h2>From a seed of an idea to roots in the ground</h2>
+        <p>Scroll and watch it grow.</p>
+      </div>
+
+      <ol class="timeline" id="timeline">
+        <li class="stem" aria-hidden="true"><span class="stem-fill" id="stemFill"></span></li>
+
+        <li class="step">
+          <span class="node" aria-hidden="true">🌰</span>
+          <article class="step-card">
+            <span class="step-no">Stage 01</span>
+            <h3>The seed</h3>
+            <p>It started with a plan and a committee. Leads, coordinators, designers, writers and a media team came together to shape Vruksha, our club's entry to the Leo Tree Plantation Challenge.</p>
+            <figure><img src="assets/img/gallery/g38-t.jpg" alt="Members lined up with their saplings" loading="lazy" width="640" height="427"></figure>
+          </article>
+        </li>
+
+        <li class="step">
+          <span class="node" aria-hidden="true">🌱</span>
+          <article class="step-card">
+            <span class="step-no">Stage 02</span>
+            <h3>The saplings</h3>
+            <p>Healthy young plants were chosen and brought in, each one in its nursery bag, each one waiting for a permanent home.</p>
+            <figure><img src="assets/img/gallery/g02-t.jpg" alt="Fresh leaves of a sapling" loading="lazy" width="640" height="480"></figure>
+          </article>
+        </li>
+
+        <li class="step">
+          <span class="node" aria-hidden="true">⛏️</span>
+          <article class="step-card">
+            <span class="step-no">Stage 03</span>
+            <h3>Breaking ground</h3>
+            <p>Before anything can grow, someone has to dig. Our Leos took turns with the mammoty, opening the red soil pit by pit, with plenty of laughter along the way.</p>
+            <figure><img src="assets/img/gallery/g05-t.jpg" alt="Preparing the ground with a mammoty" loading="lazy" width="480" height="640"></figure>
+          </article>
+        </li>
+
+        <li class="step">
+          <span class="node" aria-hidden="true">🤲</span>
+          <article class="step-card">
+            <span class="step-no">Stage 04</span>
+            <h3>Planting, hand in hand</h3>
+            <p>One sapling, many hands. Each tree was set into the earth and pressed in gently by the people who will come back to watch it grow.</p>
+            <figure><img src="assets/img/gallery/g23-t.jpg" alt="Many hands cupped around a single sapling" loading="lazy" width="640" height="427"></figure>
+          </article>
+        </li>
+
+        <li class="step">
+          <span class="node" aria-hidden="true">🌳</span>
+          <article class="step-card">
+            <span class="step-no">Stage 05</span>
+            <h3>Growing together</h3>
+            <p>The day ended with soil on our hands and a line of new trees behind us. The planting is done. The growing has just begun.</p>
+            <figure><img src="assets/img/gallery/g39-t.jpg" alt="The Vruksha team with the club banner" loading="lazy" width="640" height="480"></figure>
+          </article>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- GROVE -->
+  <section class="section grove-section" id="grove">
+    <div class="wrap">
+      <div class="section-head light reveal">
+        <p class="kicker">Your turn</p>
+        <h2>Plant a tree in our little grove</h2>
+        <p>Tap anywhere on the ground. Every tap plants one.</p>
+      </div>
+      <div class="grove reveal" id="grove-field" role="application" aria-label="Interactive grove. Tap the ground to plant a tree.">
+        <div class="sun" aria-hidden="true"></div>
+        <svg class="hills" viewBox="0 0 800 300" preserveAspectRatio="none" aria-hidden="true">
+          <path class="hill-far" d="M0 150 C 150 70 300 170 450 110 C 600 60 700 130 800 90 L800 300 L0 300 Z"/>
+          <path class="hill-near" d="M0 180 C 200 120 380 200 560 150 C 680 120 760 160 800 150 L800 300 L0 300 Z"/>
+        </svg>
+        <div class="grove-trees" id="groveTrees"></div>
+        <p class="grove-hint" id="groveHint">👆 Tap the ground</p>
+      </div>
+      <div class="grove-bar reveal">
+        <p class="grove-count"><b id="groveCount">0</b> <span id="groveMsg">trees planted. The ground is waiting.</span></p>
+        <div class="grove-actions">
+          <button class="btn btn-leaf" id="grovePlant" type="button">Plant one 🌱</button>
+          <button class="btn btn-ghost" id="groveReset" type="button">Start over</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery-section" id="gallery">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Gallery</p>
+        <h2>Moments from the field</h2>
+      </div>
+      <div class="chips reveal" id="chips" role="group" aria-label="Filter photos">
+        <button class="chip is-active" data-cat="all" type="button">All</button>
+        <button class="chip" data-cat="saplings" type="button">Saplings</button>
+        <button class="chip" data-cat="ground" type="button">Breaking ground</button>
+        <button class="chip" data-cat="planting" type="button">Planting</button>
+        <button class="chip" data-cat="people" type="button">Our people</button>
+        <button class="chip" data-cat="together" type="button">Together</button>
+      </div>
+      <div class="masonry" id="masonry"></div>
+      <div class="more-row"><button class="btn btn-outline" id="moreBtn" type="button">Show more photos</button></div>
+    </div>
+  </section>
+
+  <!-- FILM -->
+  <section class="section film-section" id="film">
+    <div class="wrap">
+      <div class="section-head light reveal">
+        <p class="kicker">The film</p>
+        <h2>The Vruksha journey</h2>
+        <p>Our day, captured by the Vruksha video team.</p>
+      </div>
+      <div class="film-frame reveal">
+        <video controls playsinline preload="none" poster="assets/img/hero-sm.jpg">
+          <source src="assets/video/vruksha-journey.mp4" type="video/mp4">
+          Your browser cannot play this video. <a href="assets/video/vruksha-journey.mp4">Download it here</a>.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section team-section" id="team">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Organizing committee</p>
+        <h2>The hands behind Vruksha</h2>
+        <p>Thank you to every member who planned, designed, wrote, filmed and dug.</p>
+      </div>
+      <h3 class="team-sub reveal">Team leads</h3>
+      <div class="team-grid leads" id="leadGrid"></div>
+      <h3 class="team-sub reveal">Team members</h3>
+      <div class="team-grid members" id="memberGrid"></div>
+      <div class="more-row reveal">
+        <button class="btn btn-outline" id="posterBtn" type="button">View the committee posters</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <svg class="footer-hill" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 60 C 300 0 520 100 800 50 C 1080 0 1260 80 1440 30 L1440 100 L0 100 Z"/>
+  </svg>
+  <div class="wrap footer-inner">
+    <div class="footer-logos">
+      <img src="assets/img/logo-vruksha.png" alt="Vruksha logo" width="84" height="84" loading="lazy">
+      <img src="assets/img/logo-club.png" alt="Leo Club of Sabaragamuwa University of Sri Lanka logo" width="84" height="84" loading="lazy">
+    </div>
+    <p class="footer-title">Leo Club of Sabaragamuwa University of Sri Lanka</p>
+    <p>Lions International &middot; Leo District 306 D7</p>
+    <p class="footer-tag">Plant Today. Grow Tomorrow.</p>
+    <a class="to-top" href="#top">Back to top ↑</a>
+    <p class="footer-small">Vruksha 2026 &middot; Leo Tree Plantation Challenge, Season 7 &middot; Photography and film by the Vruksha media team</p>
+    <p class="footer-credit">
+      Web page made by <b>Mogith Chandrakumar</b>
+      <span class="credit-links">
+        <a href="https://www.linkedin.com/in/mogith-chandrakumar/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/Mogith-Code" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Previous photo">‹</button>
+  <figure class="lb-stage">
+    <img id="lbImg" alt="">
+    <figcaption><span id="lbCap"></span><span id="lbNum"></span></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Next photo">›</button>
+</div>
+
+<script src="js/gallery-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
